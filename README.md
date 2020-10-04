@@ -1,6 +1,6 @@
-# Configurations
+# Dot Files
 
-My personal collection of configuration files I use for various programs
+My personal collection of configuration files I use for various programs, as well as useful fuctions and features I've created over time.
 
 <br><br>
 
