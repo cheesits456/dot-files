@@ -2,7 +2,7 @@
 
 My personal collection of configuration files I use for various programs
 
----
+<br><hr><br>
 
 ## Folders
 
@@ -24,4 +24,4 @@ fi
 
 ### .prettierrc.json
 
-When prettier checks for a configuration file, it goes up one directory level at a time until a config is found. This behaviour means that a configuration in your home directory will be used as a default config if no others are explicitly defined
+When prettier checks for a configuration file, it goes up one directory level at a time until a config is found. This behaviour means that a configuration in your home directory will be used as a default config if no others are explicitly defined.
