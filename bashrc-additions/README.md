@@ -23,6 +23,10 @@ Show the current date and time in top right corner of the terminal
 - Can cause issues relating to cursor position
 - If you source your `~/.bashrc`, the old loop won't stop, so this function will have 2 running instances
 
+#### Example:
+
+![corner-clock](https://github.com/cheesits456/dot-files/raw/readme-images/corner-clock.png)
+
 <br>
 
 ### ls-colors.sh
@@ -32,6 +36,10 @@ Add ls-colors command to print $LS_COLORS in a nicer format
 #### Bugs:
 
 - Bash's `column` command processes color escape sequences as printable characters, so sometimes the column alignment can be a bit off
+
+#### Example:
+
+![ls-colors](https://github.com/cheesits456/dot-files/raw/readme-images/ls-colors.png)
 
 <br>
 
