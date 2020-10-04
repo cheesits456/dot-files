@@ -2,7 +2,7 @@
 
 My personal collection of configuration files I use for various programs
 
-<br><hr><br>
+<br><br>
 
 ## Folders
 
