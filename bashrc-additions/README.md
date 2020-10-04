@@ -1,4 +1,4 @@
-# `~/.bashrc-additions`
+# ~/.bashrc-additions
 
 A folder of shell scripts for adding functions to a terminal instance. To automatically `source` these files, add the following to your `~/.bashrc` file:
 
@@ -12,7 +12,7 @@ fi
 
 ## Files
 
-### `corner-clock.sh`
+### corner-clock.sh
 
 Show the current date and time in top right corner of the terminal
 
@@ -21,7 +21,7 @@ Show the current date and time in top right corner of the terminal
 - Can cause issues relating to cursor position
 - If you source your `~/.bashrc`, the old loop won't stop, so this function will have 2 running instances
 
-### `ls-colors.sh`
+### ls-colors.sh
 
 Add ls-colors command to print $LS_COLORS in a nicer format
 
@@ -29,6 +29,6 @@ Add ls-colors command to print $LS_COLORS in a nicer format
 
 - Bash's `column` command processes color escape sequences as printable characters, so sometimes the column alignment can be a bit off
 
-### `pacman-extension.sh` **WIP**
+### pacman-extension.sh [WIP]
 
 Extend the functionality of the `pacman` command to support syntax like `pacman install` or `pacman update`
