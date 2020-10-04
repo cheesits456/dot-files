@@ -14,6 +14,20 @@ fi
 
 ## Files
 
+### colors.sh
+
+**Usage:** `colo[u]rs [--help|table]`
+
+Print a table of color escape sequences along with sample text to show how they appear
+
+- Also adds a `colours` alias for people in the UK
+
+#### Example:
+
+![colors](https://github.com/cheesits456/dot-files/raw/readme-images/colors.png)
+
+<br>
+
 ### corner-clock.sh
 
 Show the current date and time in top right corner of the terminal
