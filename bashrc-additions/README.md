@@ -10,7 +10,7 @@ if [ -d ~/.bashrc_additions ] ; then
 fi
 ```
 
----
+<br><br>
 
 ## Files
 
