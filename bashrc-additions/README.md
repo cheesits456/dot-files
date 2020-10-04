@@ -10,6 +10,8 @@ if [ -d ~/.bashrc_additions ] ; then
 fi
 ```
 
+---
+
 ## Files
 
 ### corner-clock.sh
