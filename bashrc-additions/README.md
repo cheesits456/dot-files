@@ -28,3 +28,7 @@ Add ls-colors command to print $LS_COLORS in a nicer format
 #### Bugs:
 
 - Bash's `column` command processes color escape sequences as printable characters, so sometimes the column alignment can be a bit off
+
+### `pacman-extension.sh` **WIP**
+
+Extend the functionality of the `pacman` command to support syntax like `pacman install` or `pacman update`
