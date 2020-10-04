@@ -1,10 +1,10 @@
-# .bashrc-additions
+# .bash_additions
 
 A folder of shell scripts for adding functions to a terminal instance. To automatically `source` these files, add the following to your `~/.bashrc` file:
 
 ```bash
-if [ -d ~/.bashrc_additions ] ; then
-	for file in ~/.bashrc_additions/*.sh ; do
+if [ -d ~/.bash_additions ] ; then
+	for file in ~/.bash_additions/*.sh ; do
 		source $file
 	done
 fi
