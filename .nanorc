@@ -1,0 +1,58 @@
+## Make 'nextword' (Ctrl+Right) and 'chopwordright' (Ctrl+Delete)
+## stop at word ends instead of at beginnings.
+set afterends
+
+## When soft line wrapping is enabled, make it wrap lines at blanks
+## (tabs and spaces) instead of always at the edge of the screen.
+set atblanks
+
+## Automatically indent a newly created line to the same number of
+## tabs and/or spaces as the preceding line -- or as the next line
+## if the preceding line is the beginning of a paragraph.
+set autoindent
+
+## Use bold text instead of reverse video text.
+set boldtext
+
+## Automatically hard-wrap the current line when it becomes overlong.
+set breaklonglines
+
+## Constantly display the cursor position in the status bar.  Note that
+## this overrides "quickblank".
+set constantshow
+
+## Do not use the line below the title bar, leaving it entirely blank.
+set emptyline
+
+## Display a "scrollbar" on the righthand side of the edit window.
+set indicator
+
+## Display line numbers to the left (and any anchors in the margin).
+set linenumbers
+
+## Enable mouse support, if available.  When enabled, mouse clicks can
+## place the cursor, set the mark, and execute shortcuts.
+set mouse
+
+## Remember the cursor position in each file for the next editing session.
+set positionlog
+
+## Spread overlong lines over multiple screen lines.
+set softwrap
+
+## Allow nano to be suspended (with ^Z by default).
+set suspendable
+
+## Use this tab size instead of the default; it must be greater than 0.
+set tabsize 4
+
+## Paint the interface elements of nano.  These are examples;
+## by default there are no colors, except for errorcolor.
+set titlecolor lightwhite,black
+set statuscolor lightwhite,black
+set selectedcolor bold,lightwhite,magenta
+set numbercolor lightblack,normal
+
+## === Syntax coloring ===
+include "/usr/share/nano-syntax-highlighting/*.nanorc"
+include "/usr/share/nano/*.nanorc"
