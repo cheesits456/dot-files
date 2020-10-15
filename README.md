@@ -20,6 +20,12 @@ fi
 
 <br>
 
+### .local/bin
+
+A folder for custom commands, writeable by the user without root. Most distros don't add this directory to your `PATH` by default, so that's something you'll need to do in your `~/.bashrc` file.
+
+<br><br>
+
 ## Files
 
 ### .prettierrc.json
