@@ -1,2 +1,2 @@
 ./.prettierrc linguist-language=json
-./.config/neofetch/config.conf linguist-language=shell
+./.config/neofetch/config.conf linguist-language=bash
