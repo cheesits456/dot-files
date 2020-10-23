@@ -15,7 +15,7 @@ set autoindent
 set boldtext
 
 ## Automatically hard-wrap the current line when it becomes overlong.
-set breaklonglines
+#set breaklonglines
 
 ## Constantly display the cursor position in the status bar.  Note that
 ## this overrides "quickblank".
@@ -56,3 +56,4 @@ set numbercolor lightblack,normal
 ## === Syntax coloring ===
 include "/usr/share/nano-syntax-highlighting/*.nanorc"
 include "/usr/share/nano/*.nanorc"
+include "~/.config/nano/*.nanorc"
