@@ -31,3 +31,4 @@ A folder for custom commands, writeable by the user without root. Most distros d
 ### .prettierrc.json
 
 When prettier checks for a configuration file, it goes up one directory level at a time until a config is found. This behaviour means that a configuration in your home directory will be used as a default config if no others are explicitly defined.
+
