@@ -3,11 +3,7 @@
 A folder of shell scripts for adding functions to a terminal instance. To automatically `source` these files, add the following to your `~/.bashrc` file:
 
 ```bash
-if [ -d ~/.bash_additions ] ; then
-	for file in ~/.bash_additions/*.sh ; do
-		source $file
-	done
-fi
+[ -d ~/.bash_additions ] && for file in ~/.bash_additions/*.sh; do source $file; done
 ```
 
 <br><br>
